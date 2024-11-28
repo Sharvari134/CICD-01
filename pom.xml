@@ -79,7 +79,6 @@
                              <artifactId>maven-surefire-plugin</artifactId>
                              <version>3.0.0-M5</version>
                        </plugin>
-			<build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -100,8 +99,6 @@
             </executions>
         </plugin>
     </plugins>
-</build>
-
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
